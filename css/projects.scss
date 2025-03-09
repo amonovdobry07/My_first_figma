@@ -1,0 +1,97 @@
+.pro-big-background{
+    padding-bottom: 100px;
+}
+.big-pro{
+    display: flex;
+    width: 100%;
+    @media screen and (max-width:992px) {
+        flex-direction: column;
+    }
+}
+.pro-img{
+    width: 100%;
+    @media screen and (max-width:992px) {
+        width: 200%;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+.pro-lorem{
+    padding-right: 100px;
+    padding-left: 30px;
+    
+    h1{
+        color: gray;
+        font-weight: 300;
+    }
+    p{
+        margin-top: 60px;
+        color: black;
+    }
+    .view{
+        margin-top: 50px;
+    }
+    @media screen and (max-width:992px) {
+        width: 200%;
+        padding-left: 0;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        padding-right: 0;
+    }
+
+}
+
+.mjj{
+    margin-top: 30px;
+}
+
+
+// Sertificate 
+
+.certificate-big{
+    padding-bottom: 100px;
+}
+.certi-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 60%;
+        @media screen and (max-width:768px) {
+            width: 100%;
+        }
+    }
+}
+
+
+// Contact
+.certi-big-background{
+    padding-bottom: 100px;
+}
+.certi-box{
+    width: 100%;
+    display: flex;
+    @media screen and (max-width:992px) {
+        flex-direction: column;
+    }
+}
+.certi-small-box{
+    @media screen and (max-width:992px) {
+        order: 2 !important;
+        margin-top: 30px;
+    }
+
+}
+.certi-small-boxx{
+    width: 100%;
+    iframe{
+        width: 100%;
+    }
+}
+
+
+

@@ -1,0 +1,101 @@
+.pro-big-background {
+  padding-bottom: 100px;
+}
+
+.big-pro {
+  display: flex;
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .big-pro {
+    flex-direction: column;
+  }
+}
+
+.pro-img {
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .pro-img {
+    width: 200%;
+  }
+}
+.pro-img img {
+  width: 100%;
+}
+
+.pro-lorem {
+  padding-right: 100px;
+  padding-left: 30px;
+}
+.pro-lorem h1 {
+  color: gray;
+  font-weight: 300;
+}
+.pro-lorem p {
+  margin-top: 60px;
+  color: black;
+}
+.pro-lorem .view {
+  margin-top: 50px;
+}
+@media screen and (max-width: 992px) {
+  .pro-lorem {
+    width: 200%;
+    padding-left: 0;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 0;
+  }
+}
+
+.mjj {
+  margin-top: 30px;
+}
+
+.certificate-big {
+  padding-bottom: 100px;
+}
+
+.certi-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.certi-img img {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .certi-img img {
+    width: 100%;
+  }
+}
+
+.certi-big-background {
+  padding-bottom: 100px;
+}
+
+.certi-box {
+  width: 100%;
+  display: flex;
+}
+@media screen and (max-width: 992px) {
+  .certi-box {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .certi-small-box {
+    order: 2 !important;
+    margin-top: 30px;
+  }
+}
+
+.certi-small-boxx {
+  width: 100%;
+}
+.certi-small-boxx iframe {
+  width: 100%;
+}/*# sourceMappingURL=projects.css.map */
